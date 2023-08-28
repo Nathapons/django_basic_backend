@@ -1,5 +1,5 @@
 """
-ASGI config for SWD_BACKEND_TEST project.
+ASGI config for Django_backend project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'SWD_BACKEND_TEST.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Django_backend.settings')
 
 application = get_asgi_application()

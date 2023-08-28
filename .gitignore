@@ -1,1 +1,5 @@
 env/
+Django_backend/__pycache__/
+apis/__pycache__/
+apis/migrations/__pycache__/
+apis/views/__pycache__/
